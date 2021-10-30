@@ -38,6 +38,7 @@ html::-webkit-scrollbar-thumb{
 body{
     background: var(--bg);
 }
+/* common css */
 section{
     padding: 2rem 7%;
 }
@@ -64,12 +65,7 @@ section{
 .btn:hover{
     letter-spacing: 0.2rem;
 }
-
-
-
-
-
-
+/* heeader css */
 .header{
     background: var(--bg);
     display: flex;
@@ -142,8 +138,6 @@ section{
 .header .searchForm label:hover{
     color: var(--mainColor);
 }
-
-
 .header .cartItemsContainer{
     position: absolute;
     top:100%; right: -100%;
@@ -188,12 +182,7 @@ section{
     width: 100%;
     text-align: center;
 }
-
-
-
-
-
-
+/* home css */
 .home{
     min-height: 100vh;
     display: flex;
@@ -217,13 +206,7 @@ section{
     padding: 1rem 0;
     color: #eee;
 }
-
-
-
-
-
-
-
+/* about css */
 .about .row{
     display: flex;
     align-items: center;
@@ -250,11 +233,7 @@ section{
     padding: 1rem 0;
     line-height: 1.8;
 }
-
-
-
-
-
+/* menu css */
 .menu .boxContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -289,11 +268,7 @@ section{
 .menu .boxContainer .box:hover > *{
     color: var(--black);
 }
-
-
-
-
-
+/* products css */
 .products .boxContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -342,12 +317,7 @@ section{
     text-decoration: line-through;
     font-weight: lighter;
 }
-
-
-
-
-
-
+/* review css */
 .review .boxContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -378,13 +348,7 @@ section{
     font-size: 1.5rem;
     color: var(--mainColor);
 }
-
-
-
-
-
-
-
+/* contact css */
 .contact .row{
     display: flex;
     background: var(--black);
@@ -428,12 +392,7 @@ section{
     text-transform: none;
     background: none;
 }
-
-
-
-
-
-
+/* blogs css */
 .blogs .boxContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -478,12 +437,7 @@ section{
     color: #ccc;
     padding: 1rem 0;
 }
-
-
-
-
-
-
+/* footer css */
 .footer{
     background:var(--black);
     text-align: center;
@@ -537,10 +491,6 @@ section{
 .footer .credit span{
     color:var(--main-color);
 }
-
-
-
-
 
 
 
