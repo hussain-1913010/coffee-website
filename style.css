@@ -281,6 +281,7 @@ section{
 .menu .boxContainer .box .price span{
     font-size: 1.5rem;
     text-decoration: line-through;
+    font-weight: lighter;
 }
 .menu .boxContainer .box:hover{
     background: white;
@@ -293,15 +294,54 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
+.products .boxContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.products .boxContainer .box{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+}
+.products .boxContainer .box .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: var(--border);
+    color: white;
+    margin: 0.3rem;
+}
+.products .boxContainer .box .icons a:hover{
+    background: var(--mainColor);
+}
+.products .boxContainer .box .image{
+    padding: 2.5rem 0;
+}
+.products .boxContainer .box .image img{
+    height: 25rem;
+}
+.products .boxContainer .box .content h3{
+    color: white;
+    font-size: 2.5rem;
+}
+.products .boxContainer .box .content .stars{
+    padding: 1.5rem;
+}
+.products .boxContainer .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--mainColor);
+}
+.products .boxContainer .box .content .price{
+    color: white;
+    font-size: 2.5rem;
+}
+.products .boxContainer .box .content .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
 
 
 
