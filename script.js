@@ -6,7 +6,7 @@ document.querySelector('#menuBtn').onclick = () => {
     searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 }
-}
+
 
 
 
@@ -18,7 +18,7 @@ document.querySelector('#searchBtn').onclick = () => {
     navbar.classList.remove('active');
     cartItem.classList.remove('active');
 }
-}
+
 
 
 
@@ -31,7 +31,7 @@ document.querySelector('#cartBtn').onclick = () => {
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
 }
-}
+
 
 
 
